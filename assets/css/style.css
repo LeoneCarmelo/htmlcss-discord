@@ -37,6 +37,9 @@ body section{
     /* height: 100vh; */
     padding: 6rem 0;
 }
+body button{
+    cursor: pointer;
+}
 .d-flex{
     display: flex;
 }
@@ -57,14 +60,12 @@ body section{
 /* #region header style */
 header{
     justify-content: center;
-    /* background-color: var(--bgheader); */
     height: 80px;
     background-image: url(../img/jumbo.png);
     background-position: top;
 }
 
 nav{
-    /* background-color: var(--nav); */
     justify-content: space-between;
     width: 75%;
     height:50%;
@@ -79,8 +80,6 @@ nav button:last-child{
 
 .cont-link{
     justify-content: center;
-    /* border-left: 2px dashed black;
-    border-right: 2px dashed black; */
     height: 100%;
     padding: 0 160px;
 }
@@ -94,14 +93,12 @@ a{
 /* #region sections */
 /* #region banner */
 .banner{
-    /* background-color: var(--bgbanner); */
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: cover;
     justify-content: center;
 }
 .ban{
-    /* background-color: var(--banner); */
     color: white;
     width: 60%;
     height: 80%;
@@ -135,19 +132,16 @@ h1{
 .cont-block{
     justify-content: center;
     width:75%;
-    /* height:80%; */
     margin: 5px auto;
 }
 .image{
     height:80%;
     width:70%;
-    /* background-color: var(--block1); */
 }
 
 .description{
     height: 80%;
     width:30%;
-    /* background-color: var(--block2); */
     padding: 1rem 1.8rem;
     font-size: 1.4rem;
 }
@@ -161,7 +155,6 @@ h1{
 }
 
 .sec-to-last{
-    /* background-color: var(--block3); */
     width: 75%;
     height: 100%;
     text-align: center;
@@ -175,10 +168,13 @@ h1{
     background-position: 125px -10px;
     padding-top: 30px;
 }
+#ad-title{
+    color: var(--bgsection3);
+}
 
-.cont-block button:last-child{
+#mac-btn{
     background-color: var(--registratibtn);
-    padding: 10px 15px;
+    padding: 15px 30px;
     margin-left: 1rem;
     border-radius:30px;
     border:none;
@@ -201,7 +197,6 @@ h3,h4{
 .block-orange{
     height: 100%;
     width: 28%;
-    /* background-color: var(--block4); */
 }
 .block-orange span{
     color: white;
@@ -222,7 +217,7 @@ h3,h4{
 .block-green{
     height: 100%;
     width: 18%;
-    /* background-color: var(--block5); */
+    margin-top: 20px;
 }
 ul{
     list-style: none;
@@ -250,14 +245,15 @@ hr{
     width:120px;
  }
  
- #registrati{
+ #reg-btn{
     background-color: var(--registratibtn);
-    padding: 2px 12px;
-    margin-left: 1rem;
-    border-radius:30px;
     border:none;
     color:white;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
     font-size: large;
- }
+  }
+ 
 
 /* #endregion footer */
