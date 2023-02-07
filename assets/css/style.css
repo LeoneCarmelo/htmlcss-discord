@@ -17,7 +17,7 @@ body{
 --bgbanner: #00008b;
 --banner: #ee82ee;
 --bgsection1: #ffffff;
---bgsection2: #d3d3d3;
+--bgsection2: #f6f6f6;
 --bgsection3: #23272a;
 --block1: #1e90ff;
 --block2: #ffc0cb;
@@ -57,26 +57,36 @@ body section{
 /* #region header style */
 header{
     justify-content: center;
-    background-color: var(--bgheader);
+    /* background-color: var(--bgheader); */
     height: 80px;
+    background-image: url(../img/jumbo.png);
+    background-position: top;
 }
 
 nav{
-    background-color: var(--nav);
+    /* background-color: var(--nav); */
     justify-content: space-between;
     width: 75%;
     height:50%;
 }
+nav button:last-child{
+    background-color: white;
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
+    border-radius:50px;
+    border:none;
+}
+
 .cont-link{
     justify-content: center;
-    border-left: 2px dashed black;
-    border-right: 2px dashed black;
+    /* border-left: 2px dashed black;
+    border-right: 2px dashed black; */
     height: 100%;
     padding: 0 160px;
 }
 a{
     padding:0 1.5rem;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 /* #endregion header style */
@@ -84,11 +94,14 @@ a{
 /* #region sections */
 /* #region banner */
 .banner{
-    background-color: var(--bgbanner);
+    /* background-color: var(--bgbanner); */
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
     justify-content: center;
 }
 .ban{
-    background-color: var(--banner);
+    /* background-color: var(--banner); */
     color: white;
     width: 60%;
     height: 80%;
@@ -163,7 +176,15 @@ h1{
     padding-top: 30px;
 }
 
-
+.cont-block button:last-child{
+    background-color: var(--registratibtn);
+    padding: 10px 15px;
+    margin-left: 1rem;
+    border-radius:30px;
+    border:none;
+    color:white;
+    font-size: large;
+ }
 /* #endregion sections */
 
 /* #region footer */
@@ -225,12 +246,13 @@ hr{
     background-color: var(--bgfooterbtn);
  }
 
- #discord-logo{
+ .discord-logo{
     width:120px;
  }
- .cont-block button:last-child{
+ 
+ #registrati{
     background-color: var(--registratibtn);
-    padding: 0.75rem 1rem;
+    padding: 2px 12px;
     margin-left: 1rem;
     border-radius:30px;
     border:none;
