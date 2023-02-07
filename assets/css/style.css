@@ -34,7 +34,8 @@ body{
 
 /* #region utility */
 body section{
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 6rem 0;
 }
 .d-flex{
     display: flex;
@@ -121,7 +122,7 @@ h1{
 .cont-block{
     justify-content: center;
     width:75%;
-    height:80%;
+    /* height:80%; */
     margin: 5px auto;
 }
 .image{
@@ -133,7 +134,7 @@ h1{
 .description{
     height: 80%;
     width:30%;
-    background-color: var(--block2);
+    /* background-color: var(--block2); */
     padding: 1rem 1.8rem;
     font-size: 1.4rem;
 }
@@ -147,13 +148,19 @@ h1{
 }
 
 .sec-to-last{
-    background-color: var(--block3);
+    /* background-color: var(--block3); */
     width: 75%;
     height: 100%;
     text-align: center;
 }
 .sec-to-last h2{
     font-size: 2rem;
+}
+#adventure{
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-position: 125px -10px;
+    padding-top: 30px;
 }
 
 
